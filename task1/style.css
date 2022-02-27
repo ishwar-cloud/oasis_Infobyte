@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    background-image: url("images/online.jpg"); 
+    background-position: center;
+    background-size: cover;
+  }
+  .container{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 35px;
+    color: rgb(37, 7, 7);
+  }
+  .navbar-menu a{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .navbar-menu a:hover{
+    background-color: rgb(252, 249, 249);
+    color: rgba(18, 19, 19, 0.979);
+  }
+  .description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    padding: 0 80px;
+    width: 100%;
+    text-align: center;
+  }
+  .description h2{
+    font-size: 30px;
+    font-family: 'Great Vibes',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  .description h1{
+    font-size: 35px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 70px;
+  }
+  .description p{
+    font-size: 20px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .description button{
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .description button:hover{
+    background: rgb(248, 248, 248);
+    color: #000;
+  }
+  
